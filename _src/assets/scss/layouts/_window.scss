@@ -2,31 +2,31 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 30px 15px 45px 15px;
+  padding: 3rem 1.5rem 4.5rem 1.5rem;
 
 
   &__intro {
     color: #8ccbea;
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 1.4rem;
+    line-height: 3rem;
     font-family: Roboto;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
-    padding-bottom: 1px;
+    padding-bottom: 0.1rem;
     text-transform: capitalize;
   }
 
   &__title {
     font-family: RobotoSlab;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.25;
     letter-spacing: normal;
-    padding-bottom: 15px;
+    padding-bottom: 1.5rem;
     color: #000000;
     text-transform: capitalize;
   }
@@ -34,20 +34,20 @@
   &__text {
     color: #4a4a4a;
     font-family: Roboto;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     letter-spacing: normal;
     line-height: 1.67;
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
   }
 
   &__button {
-    border: #f26002 solid 2px;
-    height: 45px;
-    width: 76px;
-    border-radius: 22.5px;
+    border: #f26002 solid 0.2rem;
+    height: 4.5rem;
+    width: 7.6rem;
+    border-radius: 2.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,12 +57,12 @@
     &:hover {
       background: #f26002;
       color: white;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+      box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.4);
     }
 
     &--text {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 2rem;
       font-family: Roboto;
       line-height: 2.25;
       text-align: center;
@@ -75,25 +75,25 @@
 
 @media all and (min-width:678px) {
   .window {
-    padding: 30px 39px 60px 39px;
+    padding: 3rem 3.9rem 6rem 3.9rem;
 
     &__intro {
-      padding-bottom: 0px;
+      padding-bottom: 0rem;
     }
 
     &__title {
-      font-size: 26px;
+      font-size: 2.6rem;
       line-height: 1.73;
-      padding-bottom: 30px;
+      padding-bottom: 3rem;
     }
 
     &__text {
-      font-size: 20px;
+      font-size: 2rem;
       line-height: 1.5;
     }
 
     &__button {
-      width: 91px;
+      width: 9.1rem;
     }
   }
 }
@@ -101,20 +101,20 @@
 
 @media all and (min-width:1200px) {
   .window {
-    padding: 60px 275px;
+    padding: 6rem 27.5rem;
 
     &__intro {
-      font-size: 16px;
+      font-size: 1.6rem;
       line-height: 1.41;
     }
 
     &__title {
-      font-size: 32px;
+      font-size: 3.2rem;
       line-height: 1.25;
     }
 
     &__button {
-      width: 160px;
+      width: 16rem;
     }
   }
 }
