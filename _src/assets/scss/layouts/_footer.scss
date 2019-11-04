@@ -7,28 +7,28 @@
   text-align: center;
 
   &__button {
-    height: 45px;
-    width: 45px;
+    height: 4.5rem;
+    width: 4.5rem;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     transform: translateY(-50%);
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0rem 0.2rem 0.4rem 0rem rgba(0, 0, 0, 0.5);
     animation-name: top;
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
 
   &__menu {
-    margin: 15px 0px 45px 0px;
+    margin: 1.5rem 0rem 4.5rem 0rem;
     text-align: center;
 
     &--websites,
     &--social {
       font-family: Roboto;
-      font-size: 16px;
+      font-size: 1.6rem;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -38,13 +38,13 @@
     }
 
     &--social {
-      padding: 30px;
+      padding: 3rem;
     }
 
 
     &--copy {
       color: white;
-      font-size: 14px;
+      font-size: 1.4rem;
       font-family: Roboto;
       font-weight: normal;
       font-stretch: normal;
@@ -69,8 +69,8 @@
       justify-content: space-between;
       text-align: left;
       width: 100%;
-      margin: 0px;
-      padding: 0px 39px 45px 39px;
+      margin: 0rem;
+      padding: 0rem 3.9rem 4.5rem 3.9rem;
 
       &--websites {
         order: 2;
@@ -92,7 +92,7 @@
 @media all and (min-width:1200px) {
   .footer {
     &__menu {
-      padding: 0px 370px 45px 370px;
+      padding: 0rem 37rem 4.5rem 37rem;
     }
   }
 }
