@@ -114,3 +114,37 @@
 
   }
 }
+
+@media all and (min-width:1200px) {
+  .reasons {
+    padding: 60px 85px 60px 81.2px;
+
+    &__title {
+      font-size: 32px;
+      line-height: 1.41;
+    }
+
+    &__article {
+      &__container {
+        grid-gap: 26.2px;
+
+      }
+
+      &__title {
+        font-size: 24px;
+        line-height: 1.25;
+        padding-bottom: 14px;
+      }
+
+      &__text {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+
+    &__button {
+      width: 255px;
+    }
+
+  }
+}
