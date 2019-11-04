@@ -1,13 +1,12 @@
 .header {
-  //   border: #fabada solid;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   position: fixed;
 
   &__menu {
-    height: 44px;
-    width: 44px;
+    height: 4.4rem;
+    width: 4.4rem;
     background: #0271bc;
     display: flex;
     justify-content: center;
