@@ -1,7 +1,31 @@
-@import 'core/settings';
-@import 'core/links';
+@import 'core/normalize';
+@import 'core/variables';
 
-body {
-  margin: 0;
-  height: 100vh;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
 }
+
+a {
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    text-decoration: none;
+  }
+}
+
+// HEADER
+@import 'layouts/header';
+// HERO
+@import 'layouts/hero';
+
+@import 'layouts/window';
+
+@import 'layouts/reasons';
+// FOOTER
+@import 'layouts/footer';
