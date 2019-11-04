@@ -66,9 +66,8 @@
       justify-content: space-between;
       text-align: left;
       width: 100%;
-      border: green solid;
       margin: 0px;
-      padding: 22px 39px 45px 39px;
+      padding: 0px 39px 45px 39px;
 
       &--websites {
         order: 2;
@@ -79,8 +78,18 @@
         padding: 0px;
       }
 
-      &--copy {}
+      &--copy {
+        order: 3;
+      }
 
+    }
+  }
+}
+
+@media all and (min-width:1200px) {
+  .footer {
+    &__menu {
+      padding: 0px 370px 45px 370px;
     }
   }
 }
