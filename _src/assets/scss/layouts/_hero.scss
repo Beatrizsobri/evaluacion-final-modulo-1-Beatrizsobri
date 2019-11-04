@@ -1,5 +1,5 @@
-.header {
-  border: #fabada solid;
+.hero {
+  // border: #fabada solid;
   background-image: url(../images/cover.jpg);
   background-size: cover;
   background-position: center;
@@ -65,24 +65,24 @@
 }
 
 @media all and (min-width:768px) {
-  .header__title {
+  .hero__title {
     font-size: 80px;
     line-height: 1.33;
     padding-bottom: 20px;
   }
 
-  .header__text {
+  .hero__text {
     font-size: 24px;
     padding-bottom: 30px;
   }
 
-  .header__button {
+  .hero__button {
     margin-bottom: 45px;
   }
 }
 
 @media all and (min-width:1200px) {
-  .header__title {
+  .hero__title {
     font-size: 100px;
     line-height: 1.32;
     padding-bottom: 0px;
@@ -90,7 +90,7 @@
 
   }
 
-  .header__button {
+  .hero__button {
     margin-bottom: 13px;
   }
 }
