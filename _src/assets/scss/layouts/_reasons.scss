@@ -1,13 +1,13 @@
 .reasons {
   background: #eff9ff;
-  padding: 30px 15px 60px 15px;
+  padding: 3rem 1.5rem 6rem 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   &__title {
     color: #000000;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: RobotoSlab;
     font-weight: bold;
     font-stretch: normal;
@@ -24,14 +24,14 @@
       display: grid;
       grid-template-columns: 180px;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-gap: 45px;
+      grid-gap: 4.5rem;
       text-align: center;
-      padding: 45px 0px;
+      padding: 4.5rem 0rem;
     }
 
     &__title {
       font-family: RobotoSlab;
-      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: bold;
       font-stretch: normal;
       font-style: normal;
@@ -41,7 +41,7 @@
 
     &__text {
       font-family: Roboto;
-      font-size: 18px;
+      font-size: 1.8rem;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -52,22 +52,22 @@
   }
 
   &__button {
-    width: 184px;
-    height: 45px;
+    width: 18.4rem;
+    height: 4.5rem;
     background: #f26002;
-    border-radius: 22.5px;
+    border-radius: 2.25rem;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all ease 1s;
 
     &:hover {
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+      box-shadow: 0rem 0.8rem 1.5rem rgba(0, 0, 0, 0.4);
     }
 
     &--text {
       font-family: Roboto;
-      font-size: 20px;
+      font-size: 2rem;
       font-weight: 500;
       color: #ffffff;
       font-weight: normal;
@@ -83,10 +83,10 @@
 
 @media all and (min-width:768px) {
   .reasons {
-    padding: 30px 40px 60px 35.7px;
+    padding: 3rem 4rem 6rem 3.57rem;
 
     &__title {
-      font-size: 26px;
+      font-size: 2.6rem;
       line-height: 1.73;
     }
 
@@ -94,24 +94,24 @@
       &__container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
-        grid-gap: 27.7px;
-        padding: 45px 0px 60px 0px;
+        grid-gap: 2.77rem;
+        padding: 4.5rem 0rem 6rem 0rem;
       }
 
       &__title {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 1.25;
-        padding-bottom: 14px;
+        padding-bottom: 1.4rem;
       }
 
       &__text {
-        font-size: 20px;
+        font-size: 2rem;
         line-height: 1.5;
       }
     }
 
     &__button {
-      width: 210px;
+      width: 21rem;
 
 
     }
@@ -121,33 +121,33 @@
 
 @media all and (min-width:1200px) {
   .reasons {
-    padding: 60px 85px 60px 81.2px;
+    padding: 6rem 8.5rem 6rem 8.12rem;
 
     &__title {
-      font-size: 32px;
+      font-size: 3.2rem;
       line-height: 1.41;
     }
 
     &__article {
       &__container {
-        grid-gap: 26.2px;
+        grid-gap: 2.62rem;
 
       }
 
       &__title {
-        font-size: 24px;
+        font-size: 2.4rem;
         line-height: 1.25;
-        padding-bottom: 14px;
+        padding-bottom: 1.4rem;
       }
 
       &__text {
-        font-size: 20px;
+        font-size: 2rem;
         line-height: 1.5;
       }
     }
 
     &__button {
-      width: 255px;
+      width: 25.5rem;
     }
 
   }
