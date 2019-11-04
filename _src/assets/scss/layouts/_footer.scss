@@ -16,6 +16,9 @@
     border-radius: 50%;
     transform: translateY(-50%);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    animation-name: top;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
   }
 
   &__menu {
@@ -92,4 +95,20 @@
       padding: 0px 370px 45px 370px;
     }
   }
+}
+
+@keyframes top {
+  from {
+    background: #eca172;
+  }
+
+  50% {
+    background: white;
+  }
+
+  to {
+    background: #eca172;
+  }
+
+
 }
