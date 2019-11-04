@@ -1,0 +1,120 @@
+.window {
+  border: #fabada solid;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 15px 45px 15px;
+
+
+  &__intro {
+    color: #8ccbea;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    padding-bottom: 1px;
+    text-transform: capitalize;
+  }
+
+  &__title {
+    font-family: RobotoSlab;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    padding-bottom: 15px;
+    color: #000000;
+    text-transform: capitalize;
+  }
+
+  &__text {
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 1.67;
+    padding-bottom: 30px;
+  }
+
+  &__button {
+    border: #f26002 solid 2px;
+    height: 45px;
+    width: 76px;
+    border-radius: 22.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 1s;
+    color: #f26002;
+
+    &:hover {
+      background: #f26002;
+      color: white;
+    }
+
+    &--text {
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Roboto;
+      line-height: 2.25;
+      text-align: center;
+      font-stretch: normal;
+      font-style: normal;
+      letter-spacing: normal;
+    }
+  }
+}
+
+@media all and (min-width:678px) {
+  .window {
+    padding: 30px 39px 60px 39px;
+
+    &__intro {
+      padding-bottom: 0px;
+    }
+
+    &__title {
+      font-size: 26px;
+      line-height: 1.73;
+      padding-bottom: 30px;
+    }
+
+    &__text {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    &__button {
+      width: 91px;
+    }
+  }
+}
+
+
+@media all and (min-width:1200px) {
+  .window {
+    padding: 60px 275px;
+
+    &__intro {
+      font-size: 16px;
+      line-height: 1.41;
+    }
+
+    &__title {
+      font-size: 32px;
+      line-height: 1.25;
+    }
+
+    &__button {
+      width: 160px;
+    }
+  }
+}
