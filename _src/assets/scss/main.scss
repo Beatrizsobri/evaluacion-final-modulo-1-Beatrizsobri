@@ -16,6 +16,12 @@ a {
   &:hover,
   &:active {
     text-decoration: none;
+
+    .footer & {
+      color: white;
+
+      &:hover {}
+    }
   }
 }
 
