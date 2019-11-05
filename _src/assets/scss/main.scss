@@ -1,6 +1,6 @@
 @import 'core/normalize';
 @import 'core/variables';
-@import 'components/animations';
+// @import 'components/animations';
 
 
 * {
@@ -36,9 +36,9 @@ a {
 @import 'layouts/header';
 // HERO
 @import 'layouts/hero';
-
+// WINDOW
 @import 'layouts/window';
-
+// REASONS
 @import 'layouts/reasons';
 // FOOTER
 @import 'layouts/footer';
