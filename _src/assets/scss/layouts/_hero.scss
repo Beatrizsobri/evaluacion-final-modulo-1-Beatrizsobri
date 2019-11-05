@@ -9,6 +9,10 @@
   justify-content: flex-end;
   color: $textColor;
   padding: 1.5rem;
+  animation-name: background;
+  animation-duration: 5s;
+  animation-iteration-count: initial;
+
 
   &__title {
     font-size: 4.2rem;
@@ -89,17 +93,5 @@
 
   .hero__button {
     margin-bottom: 1.3rem;
-  }
-}
-
-@keyframes scroll {
-  from {
-    opacity: 0;
-    transform: translateY(-15rem);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0rem);
   }
 }

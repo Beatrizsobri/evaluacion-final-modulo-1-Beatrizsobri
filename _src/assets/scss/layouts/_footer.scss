@@ -111,32 +111,3 @@
     }
   }
 }
-
-@keyframes top {
-  from {
-    opacity: 0;
-    background: white;
-  }
-
-  25% {
-    opacity: 0.5;
-    background: white;
-  }
-
-
-  50% {
-    opacity: 1;
-    background: white;
-  }
-
-  75% {
-    opacity: 0.5;
-    background: white;
-  }
-
-  to {
-    opacity: 0;
-    background: white;
-  }
-
-}
