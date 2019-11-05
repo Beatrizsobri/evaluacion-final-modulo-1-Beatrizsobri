@@ -119,7 +119,7 @@
   }
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width:1280px) {
   .reasons {
     padding: 6rem 8.5rem 6rem 8.12rem;
 
@@ -131,6 +131,8 @@
     &__article {
       &__container {
         grid-gap: 2.62rem;
+        grid-template-columns: 350px 350px 350px;
+
 
       }
 

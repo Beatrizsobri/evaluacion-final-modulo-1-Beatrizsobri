@@ -74,25 +74,40 @@
 
       &--websites {
         order: 2;
+        min-width: 210px;
       }
 
       &--social {
         order: 1;
         padding: 0px;
+        min-width: 210px;
       }
 
       &--copy {
         order: 3;
+        min-width: 210px;
       }
 
     }
   }
 }
 
-@media all and (min-width:1200px) {
+@media all and (min-width:1280px) {
   .footer {
     &__menu {
       padding: 0rem 37rem 4.5rem 37rem;
+
+      &--websites {
+        min-width: 161px;
+      }
+
+      &--social {
+        min-width: 159px;
+      }
+
+      &--copy {
+        min-width: 159px;
+      }
     }
   }
 }
