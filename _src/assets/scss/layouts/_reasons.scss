@@ -22,7 +22,7 @@
   &__article {
     &__container {
       display: grid;
-      grid-template-columns: 180px;
+      grid-template-columns: 18rem;
       grid-template-rows: 1fr 1fr 1fr;
       grid-gap: 4.5rem;
       text-align: center;
@@ -131,7 +131,7 @@
     &__article {
       &__container {
         grid-gap: 2.62rem;
-        grid-template-columns: 350px 350px 350px;
+        grid-template-columns: repeat(3, 35rem);
 
 
       }
