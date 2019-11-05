@@ -1,6 +1,6 @@
 .hero {
   background-image: url(../images/cover.jpg);
-  background-size: 100% 100%;
+  background-size: center;
   background-position: center;
   height: 100vh;
   display: flex;
@@ -65,33 +65,67 @@
 }
 
 @media all and (min-width:768px) {
-  .hero__title {
-    font-size: 8rem;
-    line-height: 1.33;
-    padding-bottom: 2rem;
-    max-width: 79rem;
-  }
+  .hero {
 
-  .hero__text {
-    font-size: 2.4rem;
-    padding-bottom: 3rem;
-  }
+    &__title {
+      font-size: 8rem;
+      line-height: 1.33;
+      padding-bottom: 2rem;
+      max-width: 79rem;
+    }
 
-  .hero__button {
-    margin-bottom: 4.5rem;
+    &__text {
+      font-size: 2.4rem;
+      padding-bottom: 3rem;
+    }
+
+    &__button {
+      margin-bottom: 4.5rem;
+    }
   }
 }
 
 @media all and (min-width:1280px) {
-  .hero__title {
-    font-size: 10rem;
-    line-height: 1.32;
-    padding-bottom: 0rem;
-    text-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+  .hero {
+    background-size: 100% 100%;
 
+    &__title {
+      font-size: 10rem;
+      line-height: 1.32;
+      padding-bottom: 0rem;
+      text-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+
+    }
+
+    &__button {
+      margin-bottom: 1.3rem;
+    }
+  }
+}
+
+@keyframes background {
+  from {
+    filter: sepia(0%);
   }
 
-  .hero__button {
-    margin-bottom: 1.3rem;
+  50% {
+    filter: sepia(80%)
+  }
+
+  to {
+    filter: sepia(0%)
+  }
+}
+
+
+@keyframes scroll {
+  from {
+    opacity: 0;
+    transform: translateY(-15rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
   }
 }
