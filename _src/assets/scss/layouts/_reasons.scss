@@ -6,9 +6,9 @@
   align-items: center;
 
   &__title {
-    color: #000000;
+    color: $fontPrimary;
     font-size: 2.4rem;
-    font-family: RobotoSlab;
+    font-family: $fontTitle;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -30,7 +30,7 @@
     }
 
     &__title {
-      font-family: RobotoSlab;
+      font-family: $fontTitle;
       font-size: 1.8rem;
       font-weight: bold;
       font-stretch: normal;
@@ -40,21 +40,21 @@
     }
 
     &__text {
-      font-family: Roboto;
+      font-family: $fontText;
       font-size: 1.8rem;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.67;
       letter-spacing: normal;
-      color: #000000;
+      color: $fontPrimary;
     }
   }
 
   &__button {
     width: 18.4rem;
     height: 4.5rem;
-    background: #f26002;
+    background: $buttonColor;
     border-radius: 2.25rem;
     display: flex;
     justify-content: center;
@@ -66,10 +66,10 @@
     }
 
     &--text {
-      font-family: Roboto;
+      font-family: $fontButton;
       font-size: 2rem;
       font-weight: 500;
-      color: #ffffff;
+      color: $textColor;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;

@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background: #304268;
+  background: $footerBackground;
   text-align: center;
 
   &__button {
@@ -27,7 +27,7 @@
 
     &--websites,
     &--social {
-      font-family: Roboto;
+      font-family: $fontText;
       font-size: 1.6rem;
       font-weight: normal;
       font-stretch: normal;
@@ -45,7 +45,7 @@
     &--copy {
       color: white;
       font-size: 1.4rem;
-      font-family: Roboto;
+      font-family: $fontText;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -99,16 +99,29 @@
 
 @keyframes top {
   from {
-    background: #eca172;
+    opacity: 0;
+    background: white;
   }
 
+  25% {
+    opacity: 0.5;
+    background: white;
+  }
+
+
   50% {
+    opacity: 1;
+    background: white;
+  }
+
+  75% {
+    opacity: 0.5;
     background: white;
   }
 
   to {
-    background: #eca172;
+    opacity: 0;
+    background: white;
   }
-
 
 }
