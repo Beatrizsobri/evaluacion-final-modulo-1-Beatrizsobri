@@ -23,9 +23,7 @@
     margin: 0rem;
     font-family: $fontTitle;
     font-weight: bold;
-    font-style: normal;
     line-height: 1.31;
-    letter-spacing: normal;
     text-transform: uppercase;
     max-width: 29rem;
   }
@@ -33,18 +31,13 @@
   &__text {
     font-size: 1.6rem;
     font-family: $fontText;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     text-align: center;
     padding-bottom: 4.5rem;
   }
 
   &__button {
     background: white;
-    height: 4.5rem;
+    min-height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%;
     display: flex;
@@ -59,7 +52,6 @@
     &--arrow {
       color: $buttonColor;
       text-align: center;
-      object-fit: contain;
     }
   }
 }
